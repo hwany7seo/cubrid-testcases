@@ -22,7 +22,7 @@ var_samp(distinct floattest)
 
 ===================================================
 var_samp(distinct realtest)    
-6.5030739161306726E17     
+6.503073916130673E17     
 
 ===================================================
 var_samp(distinct doublepretest)    
