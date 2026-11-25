@@ -59,9 +59,21 @@ id    tstz    tsltz    rs
 ===================================================
 Error:-494
 ===================================================
-Error:-21027
+id    tstz    tsltz    rs    
+1     null     1971-01-01 16:00:00.0 Asia/Seoul KST     0000-00-00 00:00:00.0 Asia/Seoul LMT     
+2     1981-01-01 05:00:00.0 Europe/Vienna CET     1981-01-01 13:00:00.0 Asia/Seoul KST     1981-01-01 13:00:00.0 Asia/Seoul KST     
+3     1993-12-31 23:00:00.0 America/Asuncion -03     null     0000-00-00 00:00:00.0 Asia/Seoul LMT     
+4     2004-06-20 08:00:00.0 Australia/Lord_Howe +1030     2004-06-20 06:30:00.0 Asia/Seoul KST     2004-06-20 06:30:00.0 Asia/Seoul KST     
+5     null     2015-08-13 18:00:00.0 Asia/Seoul KST     0000-00-00 00:00:00.0 Asia/Seoul LMT     
+6     null     null     null     
+7     2035-09-20 21:30:56.0 Africa/Casablanca WEST     2035-09-21 05:30:56.0 Asia/Seoul KST     2035-09-21 05:30:56.0 Asia/Seoul KST     
+8     2038-01-01 17:29:34.0 Africa/Algiers CET     2038-01-02 01:29:34.0 Asia/Seoul KST     0001-01-01 10:00:00.0 Asia/Seoul LMT     
+9     null     null     null     
+
 ===================================================
-Error:-21027
+cast(timestamptz '0000-00-00 00:00:00' as datetimetz)    
+0000-00-00 00:00:00.0 Asia/Seoul LMT     
+
 ===================================================
 id    ts    tsltz    tstz    greatest    
 1     1971-01-01 16:00:00.0     1971-01-01 16:00:00.0 Asia/Seoul KST     null     null     

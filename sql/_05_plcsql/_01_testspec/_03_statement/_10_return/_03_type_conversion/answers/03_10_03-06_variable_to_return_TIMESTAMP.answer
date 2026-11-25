@@ -222,8 +222,9 @@ t_NUMERIC_TIMESTAMP. This scenario is a success.
 0
 
 ===================================================
-Error:-21027
-Zero date can not be represented as java.sql.Timestamp
+t_NUMERIC_TIMESTAMP('NUMERIC(8,4)', 'TIMESTAMP',  cast(0.123456789 as numeric(4,4)))    typeof(t_NUMERIC_TIMESTAMP('NUMERIC(8,4)', 'TIMESTAMP',  cast(0.123456789 as numeric(4,4))))    
+0000-00-00 00:00:00.0     timestamp     
+
 
 variables_type = NUMERIC(8,4), return_type = TIMESTAMP, param_value(variable value) = 0.1235
 variables_type = NUMERIC(8,4), return_type = TIMESTAMP, param_value(variable value) = 0.1235

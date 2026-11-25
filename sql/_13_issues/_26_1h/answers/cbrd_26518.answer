@@ -560,8 +560,9 @@ Case 11.2: CAST string to DATE - underflow
 
 
 ===================================================
-Error:-21027
-Zero date can not be represented as java.sql.Timestamp
+result    expect_ok    
+0000-00-00     0     
+
 
 ===================================================
     
@@ -657,4 +658,3 @@ result    expect_ok
 
 ===================================================
 0
-

@@ -226,8 +226,9 @@ Stored procedure execute error:
 0
 
 ===================================================
-Error:-21027
-Zero date can not be represented as java.sql.Timestamp
+type_support_return()    
+0000-00-00     
+
 
 ===================================================
 0
@@ -366,8 +367,9 @@ Stored procedure execute error:
 0
 
 ===================================================
-Error:-21027
-Zero date can not be represented as java.sql.Timestamp
+type_support_return()    
+0000-00-00 00:00:00.0     
+
 
 ===================================================
 0
@@ -376,8 +378,9 @@ Zero date can not be represented as java.sql.Timestamp
 0
 
 ===================================================
-Error:-21027
-Zero date can not be represented as java.sql.Timestamp
+type_support_return()    
+0000-00-00 00:00:00.0     
+
 
 ===================================================
 0
@@ -386,8 +389,9 @@ Zero date can not be represented as java.sql.Timestamp
 0
 
 ===================================================
-Error:-21027
-Zero date can not be represented as java.sql.Timestamp
+type_support_return()    
+0000-00-00 00:00:00.0     
+
 
 ===================================================
 0
